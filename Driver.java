@@ -20,15 +20,18 @@ public class Driver {
 		bTree.insertNode(80);
 
 		//as what you have inserted accordingly
+		//50 30 20 40 70 60 80 
 		System.out.print("Preorder: ");
 		bTree.preOrder();
 		System.out.println();
 		
 		//will print by increasing order
+		//20 30 40 50 60 70 80 
 		System.out.print("Inorder: ");
 		bTree.inOrder();
 		System.out.println();
 		
+		//20 40 30 60 80 70 50 
 		System.out.print("postorder: ");
 		bTree.postOrder();
 		
